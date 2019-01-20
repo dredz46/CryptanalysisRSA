@@ -46,16 +46,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DecryptMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DecryptMessageForm.Designer.cs">
+      <DependentUpon>DecryptMessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EncryptMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EncryptMessageForm.Designer.cs">
+      <DependentUpon>EncryptMessageForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DecryptMessageForm.resx">
+      <DependentUpon>DecryptMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EncryptMessageForm.resx">
+      <DependentUpon>EncryptMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

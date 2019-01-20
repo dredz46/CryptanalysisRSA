@@ -147,7 +147,7 @@
             this.Controls.Add(this.TxtPrim2);
             this.Controls.Add(this.TxtPrim1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Key Generation";
             this.ResumeLayout(false);
             this.PerformLayout();
 
