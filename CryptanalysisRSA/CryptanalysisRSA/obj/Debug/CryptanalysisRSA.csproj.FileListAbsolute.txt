@@ -1,1 +1,0 @@
-c:\users\virgi\documents\visual studio 2015\Projects\CryptanalysisRSA\CryptanalysisRSA\bin\Debug\CryptanalysisRSA.exe.config
